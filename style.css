@@ -1,0 +1,129 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+#Header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#SiteName {
+    margin-bottom: 5px;
+}
+
+#SiteMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#SiteMenu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#SiteMenu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#SiteMenu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Section dividers */
+#About, #Skills, #Projects, #Experience, #Education, #Contact {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 2px solid #ddd;
+}
+
+#About {
+    border-top: none;
+}
+
+.project, .experience, .education {
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+strong {
+    color: #444;
+}
+
+/* Contact styles */
+#Contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#Contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #SiteMenu ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+}
