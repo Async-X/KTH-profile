@@ -22,7 +22,7 @@ a:hover {
 
 /* Header styles */
 #Header {
-    background-color: #333;
+    background: linear-gradient(to right, #333, #5e5e5e); /* 그라데이션 */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -65,11 +65,13 @@ section {
 
 h2 {
     margin-bottom: 20px;
+    font-size: 35px;
     color: #444;
 }
 
 p {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 ul {
@@ -86,6 +88,8 @@ li {
     margin-top: 60px;
     padding-top: 40px;
     border-top: 2px solid #ddd;
+    margin-left: 20px;
+    background: linear-gradient(to right, #f0f0f0, #ebe7e7);
 }
 
 #About {
@@ -126,4 +130,29 @@ strong {
     section {
         padding: 20px 10px;
     }
+}
+
+footer {
+    background: linear-gradient(to right, #333, #747474); /* 그라데이션 */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 10px 0;
+}
+
+.footer-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
 }
