@@ -81,10 +81,11 @@ ul {
 
 li {
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 /* Section dividers */
-#About, #Skills, #Projects, #Experience, #Education, #Contact {
+#About, #Skills, #Game, #Achievement, #Education, #Contact {
     margin-top: 60px;
     padding-top: 40px;
     border-top: 2px solid #ddd;
@@ -152,5 +153,6 @@ footer {
 #footer-container h2 {
     color: #a8a8a8;
 }
+
 
 
